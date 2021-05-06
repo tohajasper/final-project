@@ -8,7 +8,7 @@ let foodData=[
     { price: '15.000', img: `https://cdn-3.tstatic.net/jualbeli/img/njajal/2017/12/Terjawab--Inilah-Alasan-Rahasia-dari-Pertanyaan--Mengapa-Mie-Goreng-di-Warung-Selalu-Terasa-Lebih-Lezat.-No-6-Tak-Semua-Orang-Bisa--master-107049471.jpg`, name: 'Indomie Goreng' },
     { price: '150.000', img: `./img/lambchop.jpg`, name: 'Lamb Chop' },    
     { price: '50.000', img: `./img/egg.jpg`, name: 'Egg Benedict' },
-    { price: '80.0000', img: `./img/steak.jpg`, name: 'Steak Wagyu A5' },
+    { price: '800.000', img: `./img/steak.jpg`, name: 'Steak Wagyu A5' },
     { price: '10.000', img: `./img/nasi.jpg`, name: 'Nasi Putih' },
 ]
 
