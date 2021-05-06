@@ -5,7 +5,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <script src='./script.js'></script>
+        
     </head>
     <body id='shadow'>
         <div id='navbar' onclick="toggle()">
@@ -20,7 +20,15 @@
             </ul>
         </div>
         <div class='menu'><h1>Our Menu</h1></div>
-        <div class='container'>
+        <div id='filter'>
+            <!-- <input type="checkbox" class="checkbox">
+            <label for="vehicle1"> Main Dish</label>
+            <input type="checkbox" class="checkbox">
+            <label for="vehicle2"> Beverages</label><br> -->
+            <button class="button" onclick="mains()">Main Dish</button>
+            <button class="button" onclick="drinks()">Beverages</button>
+        </div>
+        <div id='container'>
             <!-- <span id='itembox'>
                 <img src="https://cdn-3.tstatic.net/jualbeli/img/njajal/2017/12/Terjawab--Inilah-Alasan-Rahasia-dari-Pertanyaan--Mengapa-Mie-Goreng-di-Warung-Selalu-Terasa-Lebih-Lezat.-No-6-Tak-Semua-Orang-Bisa--master-107049471.jpg" 
                 height=200>
@@ -41,4 +49,5 @@
             <!-- </span> -->
         </div>
     </body>
+    <script src='./script.js'></script>
 </html>

@@ -75,18 +75,43 @@
     padding-bottom: 30px;
     border-bottom: 5px groove white;
 }
- 
-.container{
+
+#filter{
     display: flex;
-    border: 5px solid red;
-    margin :30px 160px;
+    /* border: 3px solid black; */
+    margin : 0 auto ;
+    width : 400px;
+    margin-top: 30px;
     justify-content: space-around;
 }
 
-#itembox{
-    border: 3px solid purple;
+.button{
     text-align: center;
-    margin: 30px
+    font-size: 20px;
+    border: none;
+    padding :10px;
+    background-color:silver
 }
+
+ 
+#container{
+    display: flex;
+    border: 7px solid goldenrod;
+    margin :30px 160px;
+    justify-content: space-around;
+    flex-wrap:wrap
+}
+#container img{
+    border: 3px solid #555;
+    width: 200;
+}
+
+.itembox{
+    /* border: 3px solid purple; */
+    text-align: center;
+    margin: 50px 0;
+}
+
+
 
 
