@@ -74,13 +74,17 @@ body{
     transition: 0.3s;
 }
 
-.menu{
-    padding-top: 30px;
+.headbox{
     text-align: center;
-    padding-bottom: 30px;
-    border-bottom: 5px groove white;
+    border-bottom: 5px groove goldenrod;
+    height: 120px;
+    background-color:white
+}
+
+.headbox h1{
     font-style: italic;
-    background-color: white;
+    text-align: center;
+    padding:30px
 }
 
 #filter{
@@ -100,7 +104,6 @@ body{
     background-color:silver
 }
 
- 
 #container{
     display: flex;
     border: 5px solid goldenrod;
@@ -108,6 +111,7 @@ body{
     justify-content: space-around;
     flex-wrap:wrap
 }
+
 #container img{
     border: 3px solid #555;
     width: 200;
@@ -117,16 +121,6 @@ body{
     /* border: 3px solid purple; */
     text-align: center;
     margin: 50px 0;
-}
-
-.homeTitle{
-    text-align: center;
-    padding-bottom: 30px;
-    border-bottom: 5px groove goldenrod;
-    font-size: 25px;
-    font-style: italic;
-    padding-top: 30px;
-    background-color:white
 }
 
 .overview{
@@ -166,7 +160,45 @@ body{
     color: black !important;
 }
 
+.reviewbox{
+    display: flex;
+    justify-content: center;
+    margin :0 350px;
+    border: 1px solid black;
+    padding:30px 0;
+    font-size: 12pt;
+}
 
+body h3{
+    text-align: center;
+    margin: 0 350px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    color:#B8860B;
+    font-style: italic;
+    border: 1px solid black;
+}
 
+#orderbox{
+    margin :30px 200px;
+    background-color: white;
+    border: 3px solid black;
+    padding:80px;
+    padding-left: 30px
+}
 
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width:800px;
+}
+
+th{
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+th, td{
+    padding: 10px;
+}
 

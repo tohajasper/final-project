@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Restaurant</title>
+        <title>Review</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -18,14 +18,22 @@
                 <li><a href='review.html'>Review Us</a></li>
             </ul>
         </div>
-        <div class='headbox'><h1>Welcome to J's</h1></div>
-        <div class='overview'>
-            <p>J's reimagines the wonder of Indonsian Cuisine combined with Western Cuisine-all within the heart of Jakarta City</p><br><br>
-            <img src= 'https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' height='500'>
-        </div>
-        <div class='mainbutton'>
-            <a href='menu.html'>View Menu</a>
-            <a href='review.html'>Review Us</a>
+        <div class='headbox'><h1></h1></div>
+
+        <h3>Kindly feel free to send us a review. We will look forward to hearing from you and will be back in touch as soon as possible. </h3>
+
+        <div class='reviewbox'>
+            <form action="index.html">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" size='50'><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" size='50'><br><br>
+        
+                <label>Your Message:</label><br>
+                <textarea name="message" rows="6" cols="50"></textarea><br><br>
+                <input type="submit" class='button' value="Send">
+            </form>
         </div>
     </body>
     <script src='./script.js'></script>

@@ -50,3 +50,30 @@ if(!val){
     kosong.innerHTML = `
     <p>Silahkan pilih category menu</p>`
 }
+
+// let arrorder = []
+// if(arrorder.length == 0){
+    document.getElementById('orderbox').innerHTML =
+`<p style='font-style: italic; text-align: center;'>Silahkan <a href='menu.html'>order</a> terlebih dahulu</p>`
+
+// }else{
+//     for(let i=0; i<arrorder.length;i++){
+//         let row = document.createElement('TR')
+//         let td = document.createElement('TD')
+//         let num = document.createTextNode(`${i+1}`)
+//         td.appendChild(num)
+//         row.appendChild(td)
+    
+//         for(let key in arrorder[i]){
+//             let nama = document.createElement('TD')
+//             let value = document.createTextNode(arrorder[i][key])
+//             nama.appendChild(value)
+//             row.appendChild(nama)
+//         }
+    
+//         document.getElementById('dashboard').appendChild(row)
+//     }
+// }
+
+
+
